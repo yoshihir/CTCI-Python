@@ -2,7 +2,7 @@ name: Python Checks
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   lint:
     runs-on: ubuntu-latest
